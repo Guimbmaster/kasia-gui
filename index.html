@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,38 +12,54 @@
             text-align: center;
             background-color: #fefefe;
         }
-        .hero {
+        .hero-container {
+            position: relative;
             width: 100%;
             max-width: 100%;
         }
-        .nav-buttons {
-            margin-top: 2rem;
+        .hero-container img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
-        .nav-buttons a {
-            display: inline-block;
-            margin: 1rem;
+        .nav-overlay {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        .nav-overlay a {
             padding: 0.75rem 1.5rem;
-            background-color: #C2CFC2;
+            background-color: rgba(255, 255, 255, 0.85);
             color: #000;
             text-decoration: none;
             font-family: 'Playfair Display', serif;
             font-size: 1rem;
             border-radius: 8px;
+            box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
         }
-        .nav-buttons a:hover {
+        .nav-overlay a:hover {
             background-color: #F5C9B6;
         }
     </style>
 </head>
 <body>
-    <img src="homepage.png" alt="Kasia & Gui Save the Date" class="hero">
-    <div class="nav-buttons">
-        <a href="our-story.html">Our Story</a>
-        <a href="schedule.html">Schedule</a>
-        <a href="venue.html">Venue Info</a>
-        <a href="rsvp.html">RSVP</a>
-        <a href="travel.html">Travel & Accommodation</a>
-        <a href="gifts.html">Gift Info</a>
+    <div class="hero-container">
+        <img src="homepage.png" alt="Kasia & Gui Save the Date">
+        <div class="nav-overlay">
+            <a href="our-story.html">Our Story</a>
+            <a href="schedule.html">Schedule</a>
+            <a href="venue.html">Venue Info</a>
+            <a href="rsvp.html">RSVP</a>
+            <a href="travel.html">Travel</a>
+            <a href="gifts.html">Gifts</a>
+        </div>
     </div>
+</body>
+</html>
 </body>
 </html>
