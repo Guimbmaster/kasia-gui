@@ -78,13 +78,3 @@ body, html {
 .click-area:hover {
   cursor: pointer;
 }
-
-.hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover; /* Fills the screen but may crop edges */
-  z-index: -1;
-}
