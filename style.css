@@ -33,42 +33,42 @@ body, html {
 
 /* Buttons - based on % positions in the image */
 .our-story {
-  top: 33%;
+  top: 43%;
   left: 15%;
   width: 30%;
   height: 7%;
 }
 
 .schedule {
-  top: 33%;
+  top: 43%;
   left: 55%;
   width: 30%;
   height: 7%;
 }
 
 .venue-info {
-  top: 43%;
+  top: 55%;
   left: 15%;
   width: 30%;
   height: 7%;
 }
 
 .rsvp {
-  top: 43%;
+  top: 55%;
   left: 55%;
   width: 30%;
   height: 7%;
 }
 
 .travel {
-  top: 53%;
+  top: 67%;
   left: 15%;
   width: 35%;
   height: 7%;
 }
 
 .gift-info {
-  top: 53%;
+  top: 67%;
   left: 55%;
   width: 30%;
   height: 7%;
