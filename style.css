@@ -33,45 +33,45 @@ body, html {
 
 /* Buttons - based on % positions in the image */
 .our-story {
-  top: 43%;
-  left: 15%;
-  width: 30%;
-  height: 7%;
+  top: 41%;
+  left: 12%;
+  width: 35%;
+  height: 11%;
 }
 
 .schedule {
-  top: 43%;
-  left: 55%;
-  width: 30%;
-  height: 7%;
+  top: 41%;
+  left: 53%;
+  width: 35%;
+  height: 11%;
 }
 
 .venue-info {
   top: 55%;
-  left: 15%;
-  width: 30%;
-  height: 7%;
+  left: 12%;
+  width: 35%;
+  height: 10%;
 }
 
 .rsvp {
   top: 55%;
-  left: 55%;
-  width: 30%;
-  height: 7%;
+  left: 53%;
+  width: 35%;
+  height: 10%;
 }
 
 .travel {
-  top: 67%;
-  left: 15%;
+  top: 68%;
+  left: 12%;
   width: 35%;
-  height: 7%;
+  height: 10%;
 }
 
 .gift-info {
-  top: 67%;
-  left: 55%;
-  width: 30%;
-  height: 7%;
+  top: 68%;
+  left: 53%;
+  width: 35%;
+  height: 10%;
 }
 
 /* Optional: add cursor for hover effect */
