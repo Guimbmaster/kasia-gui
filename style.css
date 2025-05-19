@@ -8,12 +8,12 @@ body {
   background-size: cover;
 }
 
-/* Good dynamic, but leaves white space */
+/* Good dynamic, but leaves white space 
  body, html {
   margin: 0;
   padding: 0;
   background: #fff;
-}
+} */
 
 /* Maintain the original aspect ratio (768x1152) => 2:3 */
 .image-wrapper {
