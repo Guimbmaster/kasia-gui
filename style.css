@@ -4,8 +4,8 @@
 
 body {
   margin: 0;
-  background: url('edge_background.png') repeat;
-  background-size: cover;
+  background: url('gradient_background.png') repeat-y center center;
+  background-size: 100% auto;
 }
 
 /* Good dynamic, but leaves white space 
