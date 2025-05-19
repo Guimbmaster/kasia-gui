@@ -2,14 +2,15 @@
   box-sizing: border-box;
 }
 
-body, html {
+/* Good dynamic, but leaves white space */
+/* body, html {
   margin: 0;
   padding: 0;
   background: #fff;
 }
 
 /* Maintain the original aspect ratio (768x1152) => 2:3 */
-.image-wrapper {
+/* .image-wrapper {
   position: relative;
   width: 100%;
   max-width: 768px;
@@ -22,6 +23,24 @@ body, html {
   height: 100%;
   object-fit: cover;
   display: block;
+} */
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('homepage.png');
+  background-size: contain; /* Keeps full image visible */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f4f1ea; /* fallback if image loads slowly */
 }
 
 /* Clickable button areas */
