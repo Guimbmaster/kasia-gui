@@ -1,73 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  overflow: hidden;
+  background: #fff;
 }
 
-.container {
+/* Maintain the original aspect ratio (768x1152) => 2:3 */
+.image-wrapper {
   position: relative;
   width: 100%;
-  height: 100vh;
+  max-width: 768px;
+  margin: 0 auto;
+  aspect-ratio: 2 / 3;
 }
 
 .background-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-.btn {
-  position: absolute;
-  z-index: 2;
   display: block;
 }
 
-/* Coordinates based on the uploaded image aspect ratio (768x1152) */
-/* Use percentages to make the layout responsive */
+/* Clickable button areas */
+.click-area {
+  position: absolute;
+  display: block;
+  z-index: 2;
+}
 
+/* Buttons - based on % positions in the image */
 .our-story {
-  top: 35%;
-  left: 18%;
-  width: 25%;
-  height: 7%;
-}
-
-.schedule {
-  top: 35%;
-  left: 56%;
-  width: 25%;
-  height: 7%;
-}
-
-.venue-info {
-  top: 45%;
-  left: 18%;
-  width: 25%;
-  height: 7%;
-}
-
-.rsvp {
-  top: 45%;
-  left: 56%;
-  width: 25%;
-  height: 7%;
-}
-
-.travel {
-  top: 55%;
-  left: 18%;
+  top: 33%;
+  left: 15%;
   width: 30%;
   height: 7%;
 }
 
-.gift-info {
-  top: 55%;
-  left: 56%;
-  width: 25%;
+.schedule {
+  top: 33%;
+  left: 55%;
+  width: 30%;
   height: 7%;
+}
+
+.venue-info {
+  top: 43%;
+  left: 15%;
+  width: 30%;
+  height: 7%;
+}
+
+.rsvp {
+  top: 43%;
+  left: 55%;
+  width: 30%;
+  height: 7%;
+}
+
+.travel {
+  top: 53%;
+  left: 15%;
+  width: 35%;
+  height: 7%;
+}
+
+.gift-info {
+  top: 53%;
+  left: 55%;
+  width: 30%;
+  height: 7%;
+}
+
+/* Optional: add cursor for hover effect */
+.click-area:hover {
+  cursor: pointer;
 }
