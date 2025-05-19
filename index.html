@@ -1,65 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kasia & Gui</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Open Sans', sans-serif;
-            text-align: center;
-            background-color: #fefefe;
-        }
-        .hero-container {
-            position: relative;
-            width: 100%;
-            max-width: 100%;
-        }
-        .hero-container img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .nav-overlay {
-            position: absolute;
-            top: 60%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 1rem;
-        }
-        .nav-overlay a {
-            padding: 0.75rem 1.5rem;
-            background-color: rgba(255, 255, 255, 0.85);
-            color: #000;
-            text-decoration: none;
-            font-family: 'Playfair Display', serif;
-            font-size: 1rem;
-            border-radius: 8px;
-            box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
-        }
-        .nav-overlay a:hover {
-            background-color: #F5C9B6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasia & Gui - Wedding</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="hero-container">
-        <img src="homepage.png" alt="Kasia & Gui Save the Date">
-        <div class="nav-overlay">
-            <a href="our-story.html">Our Story</a>
-            <a href="schedule.html">Schedule</a>
-            <a href="venue.html">Venue Info</a>
-            <a href="rsvp.html">RSVP</a>
-            <a href="travel.html">Travel</a>
-            <a href="gifts.html">Gifts</a>
-        </div>
-    </div>
-</body>
-</html>
+  <img src="homepage.png" usemap="#weddingmap" alt="Kasia and Gui Wedding Homepage">
+
+  <map name="weddingmap">
+    <area shape="rect" coords="150,500,480,580" href="our-story.html" alt="Our Story">
+    <area shape="rect" coords="550,500,880,580" href="schedule.html" alt="Schedule">
+    <area shape="rect" coords="150,650,480,730" href="venue.html" alt="Venue Info">
+    <area shape="rect" coords="550,650,880,730" href="rsvp.html" alt="RSVP">
+    <area shape="rect" coords="150,800,480,880" href="travel.html" alt="Travel & Accommodation">
+    <area shape="rect" coords="550,800,880,880" href="gift.html" alt="Gift Info">
+  </map>
 </body>
 </html>
