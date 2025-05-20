@@ -52,43 +52,43 @@ html, body {
 /* Buttons - based on % positions in the image */
 .our-story {
   top: 41%;
-  left: 12%;
-  width: 35%;
+  left: 33%;
+  width: 16%;
   height: 11%;
 }
 
 .schedule {
   top: 41%;
-  left: 53%;
-  width: 35%;
+  left: 52%;
+  width: 16%;
   height: 11%;
 }
 
 .venue-info {
-  top: 55%;
-  left: 12%;
-  width: 35%;
+  top: 54%;
+  left: 33%;
+  width: 16%;
   height: 10%;
 }
 
 .rsvp {
-  top: 55%;
-  left: 53%;
-  width: 35%;
+  top: 54%;
+  left: 52%;
+  width: 16%;
   height: 10%;
 }
 
 .travel {
-  top: 68%;
-  left: 12%;
-  width: 35%;
+  top: 66%;
+  left: 33%;
+  width: 16%;
   height: 10%;
 }
 
 .gift-info {
-  top: 68%;
-  left: 53%;
-  width: 35%;
+  top: 66%;
+  left: 54%;
+  width: 16%;
   height: 10%;
 }
 
