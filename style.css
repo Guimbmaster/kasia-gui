@@ -1,54 +1,3 @@
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-
-.background-image {
-  background-image: url('homepage_blurred_extended_final.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw;
-  z-index: 0;
-}
-
-.foreground-wrapper {
-  position: relative;
-  z-index: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  pointer-events: none; /* prevent accidental blocking */
-}
-
-.foreground-image {
-  max-height: 100vh;
-  max-width: 100vw;
-  height: auto;
-  width: auto;
-  display: block;
-  position: relative;
-  z-index: 1;
-  pointer-events: none;
-}
-
-/* Hotspot buttons overlaying the image */
-.hotspot {
-  position: absolute;
-  z-index: 2;
-  pointer-events: auto;
-}
-
-/*
 
 * {
   box-sizing: border-box;
@@ -73,7 +22,7 @@ html, body {
 }
 
 /* Works, but repeats the image */
-/* body {
+body {
   margin: 0;
   background: url('homepage_blurred_extended_final.png') repeat-y center center;
   background-size: 100% auto;
@@ -87,7 +36,7 @@ html, body {
 } */
 
 /* Maintain the original aspect ratio (768x1152) => 2:3 */
-/*.image-wrapper {
+.image-wrapper {
   position: relative;
   width: 100%;
   max-width: 768px;
@@ -103,14 +52,14 @@ html, body {
 }
 
 /* Clickable button areas */
-/*.click-area {
+.click-area {
   position: absolute;
   display: block;
   z-index: 2;
 }
 
 /* Buttons - based on % positions in the image */
-/*.our-story {
+.our-story {
   top: 41%;
   left: 12%;
   width: 35%;
@@ -153,7 +102,6 @@ html, body {
 }
 
 /* Optional: add cursor for hover effect */
-/* .click-area:hover {
+.click-area:hover {
   cursor: pointer;
 }
-*/
