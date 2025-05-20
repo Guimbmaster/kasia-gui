@@ -1,36 +1,45 @@
-
+/* Reset default margins */
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
-/* Works, but repeats the image */
-body {
-  margin: 0;
-  background: url('homepage_blurred_extended_v3.png') repeat-y center center;
-  background-size: 100% auto;
-} 
-
-/* Good dynamic, but leaves white space 
- body, html {
-  margin: 0;
-  padding: 0;
-  background: #fff;
-} */
-
-/* Maintain the original aspect ratio (768x1152) => 2:3 */
-.image-wrapper {
-  position: relative;
+html, body {
+  height: 100%;
   width: 100%;
-  max-width: 768px;
-  margin: 0 auto;
-  aspect-ratio: 2 / 3;
+  font-family: sans-serif;
 }
 
-.background-image {
-  width: 100%;
+/* Fullscreen background image */
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 100%;
-  object-fit: cover;
-  display: block;
+  width: 100%;
+  background-image: url('background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* Centered image container */
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2vw;
+}
+
+/* Scales image responsively */
+.buttons {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
 }
 
 /* Clickable button areas */
