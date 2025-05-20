@@ -3,30 +3,12 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-  font-family: sans-serif;
-}
-
-.background-container {
-  height: 100vh;
-  width: 100vw;
-  background-image: url('homepage_blurred_extended_final.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
 /* Works, but repeats the image */
-/* body {
+body {
   margin: 0;
   background: url('homepage_blurred_extended_final.png') repeat-y center center;
   background-size: 100% auto;
-} */
+} 
 
 /* Good dynamic, but leaves white space 
  body, html {
