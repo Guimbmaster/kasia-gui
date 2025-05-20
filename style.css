@@ -60,42 +60,42 @@ html, body {
 /* Positioning based on image dimensions (percentages of image size) */
 .our-story {
   top: 41%;
-  left: 33%;
-  width: 16%;
+  left: 12%;
+  width: 36%;
   height: 11%;
 }
 
 .schedule {
   top: 41%;
   left: 52%;
-  width: 16%;
+  width: 36%;
   height: 11%;
 }
 
 .venue-info {
-  top: 54%;
-  left: 33%;
-  width: 16%;
+  top: 55%;
+  left: 12%;
+  width: 36%;
   height: 10%;
 }
 
 .rsvp {
-  top: 54%;
+  top: 55%;
   left: 52%;
-  width: 16%;
+  width: 36%;
   height: 10%;
 }
 
 .travel {
-  top: 66%;
-  left: 33%;
-  width: 16%;
-  height: 10%;
+  top: 67%;
+  left: 12%;
+  width: 36%;
+  height: 11%;
 }
 
 .gift-info {
-  top: 66%;
+  top: 67%;
   left: 52%;
-  width: 16%;
-  height: 10%;
+  width: 36%;
+  height: 11%;
 }
