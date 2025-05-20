@@ -1,4 +1,4 @@
-/* Reset default margins */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ html, body {
   font-family: sans-serif;
 }
 
-/* Fullscreen background image */
+/* Background */
 .background {
   position: fixed;
   top: 0;
@@ -25,7 +25,7 @@ html, body {
   z-index: -1;
 }
 
-/* Centered image container */
+/* Center container */
 .content {
   height: 100%;
   width: 100%;
@@ -35,21 +35,29 @@ html, body {
   padding: 2vw;
 }
 
-/* Scales image responsively */
-.buttons {
+/* Image and click map wrapper */
+.image-wrapper {
+  position: relative;
   width: 100%;
   max-width: 600px;
-  height: auto;
 }
 
-/* Clickable button areas */
+/* Foreground image */
+.buttons {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Click areas as absolute children of .image-wrapper */
 .click-area {
   position: absolute;
   display: block;
   z-index: 2;
+  cursor: pointer;
 }
 
-/* Buttons - based on % positions in the image */
+/* Positioning based on image dimensions (percentages of image size) */
 .our-story {
   top: 41%;
   left: 33%;
@@ -90,9 +98,4 @@ html, body {
   left: 52%;
   width: 16%;
   height: 10%;
-}
-
-/* Optional: add cursor for hover effect */
-.click-area:hover {
-  cursor: pointer;
 }
