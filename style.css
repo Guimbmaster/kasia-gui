@@ -109,7 +109,7 @@ html, body {
   max-height:400px;
   border: 4px solid #e0d6cd; /* soft beige tone */
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px rgba(217, 210, 186, 0.1);
   overflow: hidden; /* ensures iframe doesn't bleed outside border */
 }
 
