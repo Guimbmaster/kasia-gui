@@ -103,12 +103,12 @@ html, body {
 .map-container {
   position: relative;
   width: 100%;
-  padding-bottom: 30%; /* 16:9 aspect ratio */
+  padding-bottom: 50%; /* 16:9 aspect ratio */
   margin: 2rem auto;
   max-width: 800px;
-  border: 4px solid #e0d6cd; /* soft beige tone */
+  border: 4px solid #e1decd; /* soft beige tone */
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(217, 210, 186, 0.1);
+  box-shadow: 0 4px 20px rgba(102, 111, 90, 0.4);
   overflow: hidden; /* ensures iframe doesn't bleed outside border */
 }
 
@@ -123,15 +123,15 @@ html, body {
 
 .section-divider {
   border: none;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin-top: 0.5rem;
-  margin-bottom: 2rem;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  margin-top: 3rem;
+  margin-bottom: 0rem;
   width: 100%;
 }
 
 .back-link {
   position: absolute;
-  top: 1rem;
+  top: 0rem;
   left: 3rem;
   color: #a36a4f;
   text-decoration: none;
@@ -140,7 +140,7 @@ html, body {
 }
 
 .page-title {
-  margin-top: 4rem; /* Moves the title further down from the top */
+  margin-top: 2rem; /* Moves the title further down from the top */
   margin-bottom: 2rem; /* Adds space between title and paragraph */
   font-size: 2.5rem;
 }
