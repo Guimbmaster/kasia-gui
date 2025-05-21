@@ -103,7 +103,7 @@ html, body {
 .map-container {
   position: relative;
   width: 100%;
-  padding-bottom: 50%; /* 16:9 aspect ratio */
+  padding-bottom: 30%; /* 16:9 aspect ratio */
   margin: 2rem auto;
   max-width: 800px;
   border: 4px solid #e1decd; /* soft beige tone */
