@@ -227,3 +227,11 @@ html, body {
     transform: rotateY(180deg);
   }
 }
+
+.flip-card,
+.flip-inner,
+.flip-front,
+.flip-back {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
