@@ -171,15 +171,20 @@ html, body {
 /* Flip Card Container */
 .flip-card {
   perspective: 1000px;
-  aspect-ratio: auto;
+  aspect-ratio: 3/4;
   max-width: 100%;
   cursor: pointer;
 }
 
 .flip-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  /* position: relative; */
+  /* width: 100%; */
+  /* height: 100%; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   transition: transform 0.8s;
   transform-style: preserve-3d;
   border-radius: 12px;
@@ -215,4 +220,10 @@ html, body {
 /* Allow JS toggle to control flip */
 .flip-inner.flipped {
   transform: rotateY(180deg);
+}
+
+@media (hover: hover) {
+  .flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
 }
