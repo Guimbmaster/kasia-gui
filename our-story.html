@@ -42,8 +42,9 @@
   </div>
   <script>
   document.querySelectorAll('.flip-card').forEach(card => {
-    card.addEventListener('click', () => {
-      card.querySelector('.flip-inner').classList.toggle('flipped');
+  const inner = card.querySelector('.flip-inner');
+  card.addEventListener('click', () => {
+    inner.classList.toggle('flipped');
     });
   });
   </script>
