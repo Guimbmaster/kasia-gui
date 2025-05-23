@@ -190,10 +190,11 @@ html, body {
   border-radius: 12px;
 }
 
-/* Apply flip on hover (desktop) */
+/* Apply flip on hover (desktop) 
 .flip-card:hover .flip-inner {
   transform: rotateY(180deg);
 }
+*/
 
 .flip-front, .flip-back {
   position: absolute;
@@ -233,5 +234,18 @@ html, body {
 .flip-front,
 .flip-back {
   touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (hover: hover) {
+  .flip-card:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
+}
+
+.flip-card {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
