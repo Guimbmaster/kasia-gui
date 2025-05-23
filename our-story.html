@@ -23,6 +23,72 @@
 </head>
 <body>
   <div class="background"></div>
+    <a href="index.html" class="back-link">Menu</a>
+    <hr class="section-divider"/>
+    <h1 class="page-title">Our Story</h1>
+    <p class="page-paragraph">Details about our story goes here...</p>
+    <div class="photo-grid">
+      <div class="flip-card">
+        <div class="flip-inner">
+          <div class="flip-front">
+            <img src="images/photo1_front.jpg" alt="Kasia and Gui 1 front" />
+          </div>
+          <div class="flip-back">
+            <img src="images/photo1_back.jpg" alt="Kasia and Gui 1 back" />
+          </div>
+        </div>
+      </div>
+      <img src="images/photo2.jpg" alt="Kasia and Gui 2" />
+      <img src="images/photo3.jpg" alt="Kasia and Gui 3" />
+      <img src="images/photo4.jpg" alt="Kasia and Gui 4" />
+      <img src="images/photo5.jpg" alt="Kasia and Gui 5" />
+      <img src="images/photo6.jpg" alt="Kasia and Gui 6" />
+      <img src="images/photo7.jpg" alt="Kasia and Gui 7" />
+      <img src="images/photo8.jpg" alt="Kasia and Gui 8" />
+      <img src="images/photo9.jpg" alt="Kasia and Gui 9" />
+      <img src="images/photo10.jpg" alt="Kasia and Gui 10" />
+      <img src="images/photo11.jpg" alt="Kasia and Gui 11" />
+      <img src="images/photo12.jpg" alt="Kasia and Gui 12" />
+      <img src="images/photo13.jpg" alt="Kasia and Gui 13" />
+    </div>
+    <script>
+    document.querySelectorAll('.flip-card').forEach(card => {
+      card.addEventListener('click', () => {
+        card.querySelector('.flip-inner').classList.toggle('flipped');
+      });
+    });
+    </script>
+  </body>
+  </html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kasia & Gui – Our Story</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fefcf9;
+      color: #333;
+      padding: 2rem;
+      text-align: center;
+    }
+    a {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #a36a4f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="background"></div>
   <a href="index.html" class="back-link">Menu</a>
   <hr class="section-divider"/>
   <h1 class="page-title">Our Story</h1>
@@ -48,9 +114,7 @@
   </script>
 </body>
 </html>
-
-
-<!--
+  
 <div class="flip-card">
       <div class="flip-inner">
         <div class="flip-front">
