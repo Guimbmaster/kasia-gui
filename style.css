@@ -131,8 +131,9 @@ html, body {
 }
 
 .back-link {
+  /* display: inline-block; */
   position: absolute;
-  top: 0rem;
+  top: 2rem;
   left: 2rem;
   color: #a36a4f;
   text-decoration: none;
@@ -148,6 +149,7 @@ html, body {
 }
 
 .page-paragraph {
+  max-width: 600px;
   margin-bottom: 1rem; /* Adds space between paragraphs */
   font-size: 1rem;
 }
