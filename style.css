@@ -144,6 +144,7 @@ html, body {
   margin-top: 2rem; /* Moves the title further down from the top */
   margin-bottom: 2rem; /* Adds space between title and paragraph */
   font-size: 2.5rem;
+  color: #4e5e50;
 }
 
 .page-paragraph {
