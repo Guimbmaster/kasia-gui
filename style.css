@@ -256,4 +256,5 @@ html, body {
 .form-container {
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
   }
