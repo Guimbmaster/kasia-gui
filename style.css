@@ -149,7 +149,7 @@ html, body {
 }
 
 .page-paragraph {
-  max-width: 600px;
+  /* max-width: 600px; */
   margin-bottom: 1rem; /* Adds space between paragraphs */
   font-size: 1rem;
 }
