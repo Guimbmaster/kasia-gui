@@ -9,8 +9,6 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lora', serif;
-  tex-align: center;
-  padding: 2rem;
 }
 
 /* Background */
@@ -149,12 +147,15 @@ html, body {
   margin-bottom: 2rem; /* Adds space between title and paragraph */
   font-size: 2.5rem;
   color: #4e5e50;
+  text-align: center;
 }
 
 .page-paragraph {
   /* max-width: 600px; */
   margin-bottom: 1rem; /* Adds space between paragraphs */
   font-size: 1rem;
+  tex-align: center;
+  padding: 2rem;
 }
 
 .photo-grid {
