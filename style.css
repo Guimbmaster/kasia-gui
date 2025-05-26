@@ -9,7 +9,7 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lora', serif;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 /* Background */
@@ -127,10 +127,10 @@ html, body {
 .section-divider {
   border: none;
   border-bottom: 2px solid rgba(99, 108, 87, 0.5);
-  margin-top: 5rem;
+  margin-top: 3rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
-  width: 95%;
+  margin-left: 0rem;
+  width: 100%;
 }
 
 .back-link {
