@@ -303,12 +303,12 @@ html, body {
 
 @media (max-width: 768px) {
   .icon {
-    width: 80px;
+    width: 240px;
   }
 }
 
 @media (max-width: 480px) {
   .icon {
-    width: 60px;
+    width: 180px;
   }
 }
