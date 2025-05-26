@@ -261,4 +261,5 @@ html, body {
     display: flex;
     justify-content: center;
     overflow-x: hidden;
+    margin-top: 2.7rem;
   }
