@@ -265,21 +265,3 @@ html, body {
     overflow-x: hidden;
     margin-top: 2.7rem;
   }
-
-.sticky-header {
-  position: sticky;
-  top: 0;
-  background: white; /* or match your site background */
-  z-index: 999;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-}
-
-.sticky-header .background {
-  position: absolute; /* Or remove if unnecessary */
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  z-index: -1;
-}
