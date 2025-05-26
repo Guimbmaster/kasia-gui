@@ -9,8 +9,6 @@ html, body {
   height: 100%;
   width: 100%;
   font-family: 'Lora', serif;
-  tex-align: center;
-  padding: 2rem;
 }
 
 /* Background */
@@ -127,9 +125,10 @@ html, body {
 .section-divider {
   border: none;
   border-bottom: 2px solid rgba(99, 108, 87, 0.5);
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 0rem;
-  width: 100%;
+  margin-left: 2rem
+  width: 95%;
 }
 
 .back-link {
@@ -156,8 +155,7 @@ html, body {
   /* max-width: 600px; */
   margin-bottom: 1rem; /* Adds space between paragraphs */
   font-size: 1rem;
-  tex-align: center;
-  padding: 2rem;
+  text-align: center;
 }
 
 .photo-grid {
