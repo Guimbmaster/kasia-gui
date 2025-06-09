@@ -312,6 +312,6 @@ html, body {
   }
 }
 
-.spacer {
-  height: 3rem;
+.bottom-wrapper {
+  padding-bottom: 3rem;
 }
