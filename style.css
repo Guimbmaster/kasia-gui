@@ -311,3 +311,7 @@ html, body {
     width: 240px;
   }
 }
+
+.spacer {
+  height: 3rem;
+}
