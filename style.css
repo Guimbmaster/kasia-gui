@@ -179,22 +179,26 @@ html, body {
 /* Flip Card Container */
 .flip-card {
   perspective: 1000px;
-  width: 100%;
+  aspect-ratio: 3/4;
+  max-width: 100%;
   cursor: pointer;
-  position: relative;
 }
 
 .flip-inner {
-  position: relative;
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   transition: transform 0.8s;
   transform-style: preserve-3d;
+  border-radius: 12px;
 }
 
 .flip-front, .flip-back {
   position: absolute;
   width: 100%;
-  inset: 0;
+  height: 100%;
   backface-visibility: hidden;
   border-radius: 12px;
   overflow: hidden;
@@ -204,9 +208,8 @@ html, body {
 .flip-front img,
 .flip-back img {
   width: 100%;
-  height: auto;
-  display: block;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Back of the card */
