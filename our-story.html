@@ -83,7 +83,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo7_front.jpg" alt="Kasia and Gui 7 front" />
@@ -94,7 +94,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo8_front.jpg" alt="Kasia and Gui 8 front" />
@@ -193,7 +193,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo17_front.jpg" alt="Kasia and Gui 17 front" />
@@ -204,7 +204,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo18_front.jpeg" alt="Kasia and Gui 18 front" />
@@ -215,7 +215,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo19_front.jpg" alt="Kasia and Gui 19 front" />
@@ -226,7 +226,7 @@
       </div>
     </div>
 
-    <div class="flip-card">
+    <div class="flip-card-l">
       <div class="flip-inner">
         <div class="flip-front">
           <img src="images/photo20_front.jpg" alt="Kasia and Gui 20 front" />
@@ -262,6 +262,14 @@
   </div>
   <script>
   document.querySelectorAll('.flip-card').forEach(card => {
+    const inner = card.querySelector('.flip-inner');
+    card.addEventListener('click', () => {
+      inner.classList.toggle('flipped');
+    });
+  });
+  </script>
+    <script>
+  document.querySelectorAll('.flip-card-l').forEach(card => {
     const inner = card.querySelector('.flip-inner');
     card.addEventListener('click', () => {
       inner.classList.toggle('flipped');
