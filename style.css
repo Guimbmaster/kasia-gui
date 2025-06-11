@@ -236,7 +236,14 @@ html, body {
   }
 }
 
+@media (hover: hover) {
+  .flip-card-l:hover .flip-inner {
+    transform: rotateY(180deg);
+  }
+}
+
 .flip-card,
+.flip-card-l,
 .flip-inner,
 .flip-front,
 .flip-back {
@@ -244,13 +251,14 @@ html, body {
   -webkit-tap-highlight-color: transparent;
 }
 
-@media (hover: hover) {
+/* @media (hover: hover) { 
   .flip-card:hover .flip-inner {
     transform: rotateY(180deg);
   }
-}
+} */
 
-.flip-card {
+.flip-card,
+.flip-card-l {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
