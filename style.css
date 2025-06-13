@@ -152,6 +152,32 @@ html, body {
   z-index: 10;
 }
 
+.top-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.language-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  color: #a36a4f;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.lang-btn:hover {
+  text-decoration: underline;
+}
+
 .page-title {
   font-family: 'Playfair Display', serif;
   margin-top: 5.3rem; /* Moves the title further down from the top */
