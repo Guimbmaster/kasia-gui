@@ -152,6 +152,10 @@ html, body {
   z-index: 10;
 }
 
+.back-link:hover {
+    text-decoration: underline;
+}
+
 .top-bar-content {
   display: flex;
   justify-content: space-between;
