@@ -123,20 +123,29 @@ html, body {
   border: 0;
 }
 
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(background.png);
+  z-index: 1000;
+  width: 100%;
+  padding: 1rem 2 rem 0rem;
+}
+  
 .section-divider {
   border: none;
   border-bottom: 2px solid rgba(99, 108, 87, 0.5);
-  margin-top: 3rem;
+  margin-top: 2.7rem;
   margin-bottom: 0rem;
   margin-left: 0rem;
   width: 100%;
 }
 
 .back-link {
-  /* display: inline-block; */
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
+  position: relative;
+  top: 1rem;
+  left: 0;
   color: #a36a4f;
   text-decoration: none;
   font-weight: bold;
