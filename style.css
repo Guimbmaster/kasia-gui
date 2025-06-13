@@ -180,6 +180,18 @@ html, body {
   text-decoration: none;
 }
 
+.lang-btn-active {
+  background: none;
+  border: none;
+  color: #a36a4f;
+  font-weight: bold;
+  padding: 0rem 0rem 0rem 0.25rem;
+  font-size: 1rem;
+  position: relative;
+  top: 1rem;
+  text-decoration: none;
+}
+
 .lang-btn:hover {
   text-decoration: underline;
 }
