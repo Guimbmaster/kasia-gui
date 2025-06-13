@@ -173,6 +173,7 @@ html, body {
   font-size: 1rem;
   position: relative;
   top: 1rem;
+  text-decoration: none;
 }
 
 .lang-btn:hover {
