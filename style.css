@@ -181,15 +181,16 @@ html, body {
 }
 
 .lang-btn-active {
-  background: none;
-  border: none;
-  color: #a36a4f;
-  font-weight: bold;
-  padding: 0rem 0rem 0rem 0.25rem;
-  font-size: 1rem;
-  position: relative;
-  top: 1rem;
-  text-decoration: none;
+    background: none;
+    border: none;
+    color: #7a4f3a;
+    font-weight: 900;
+    padding: 0rem 0rem 0rem 0.25rem;
+    font-size: 1rem;
+    position: relative;
+    top: 0.9rem;
+    text-decoration: none;
+    font-family: 'Playfair Display';
 }
 
 .lang-btn:hover {
